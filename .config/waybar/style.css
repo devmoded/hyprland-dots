@@ -1,8 +1,9 @@
 * {
     border: none;
     border-radius: 0;
-    /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, JetBrains Mono Bold, sans-serif;
+    /* `otf-font-awesome` требуется для иконок */
+    /* `JetBrains Mono` требуется для текста */
+    font-family: FontAwesome, JetBrains Mono, sans-serif;
     min-height: 20px;
 }
 

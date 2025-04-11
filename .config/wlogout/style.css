@@ -8,43 +8,49 @@ window {
 }
 
 button {
-    border-radius: 0;
+    border-radius: 10;
     border-color: black;
 	text-decoration-color: #FFFFFF;
-    color: #FFFFFF;
-	background-color: #1E1E1E;
+    font-family: "JetBrainsMono";
+    font-size: 20px;
+    color: #151515;
+	background-color: #4b4b4b;
 	border-style: solid;
 	border-width: 1px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 25%;
+    margin: 10px;
 }
 
 button:focus, button:active, button:hover {
-	background-color: #3700B3;
+    background-size: 160px;
+	background-color: #3cb478;
 	outline-style: none;
 }
 
+/* Изменить на своего юзера */
+
 #lock {
-    background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+    background-image: image(url("/home/dvmdd/.wlogout-icons/lock-icon.png"));
 }
 
 #logout {
-    background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+    background-image: image(url("/home/dvmdd/.wlogout-icons/end-session-icon.png"));
 }
 
 #suspend {
-    background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+    background-image: image(url("/home/dvmdd/.wlogout-icons/suspend-icon.png"));
 }
 
 #hibernate {
-    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+    background-image: image(url("/home/dvmdd/.wlogout-icons/hibernate-icon.png"));
 }
 
 #shutdown {
-    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+    background-image: image(url("/home/dvmdd/.wlogout-icons/power-off-icon.png"));
 }
 
 #reboot {
-    background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+    background-image: image(url("/home/dvmdd/.wlogout-icons/reboot-icon.png"));
 }
