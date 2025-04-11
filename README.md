@@ -1,8 +1,8 @@
 # Требуемые пакеты:
 ## Основные
-Hyprland, Waybar, Wofi, Kitty, Hyprpaper, Hyprlock, Nemo, nwg-look:
+Hyprland, Waybar, Wofi, Kitty, Hyprpaper, Hyprlock, Nemo, nwg-look, swaync:
 ```bash
-sudo pacman -S hyprland waybar wofi kitty hyprpaper hyprlock nemo nwg-look
+sudo pacman -S hyprland waybar wofi kitty hyprpaper hyprlock nemo nwg-look swaync
 ```
 
 ## SDDM:
@@ -34,7 +34,7 @@ yay -S hyprshot
 
 ## [wlogout](https://github.com/ArtsyMacaw/wlogout):
 ```bash
-pacman -S wlogout
+yay -S wlogout
 ```
 
 ## Шрифты:
