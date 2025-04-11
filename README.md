@@ -1,8 +1,8 @@
 # Требуемые пакеты:
 ## Основные
-Hyprland, Waybar, Wofi, Kitty, Hyprpaper, Hyprlock, Nemo, nwg-look, swaync:
+Hyprland, Waybar, Wofi, Kitty, Hyprpaper, Hyprlock, Nemo, nwg-look, swaync, hyprpolkitagent, xdg-desktop-portal-hyprland:
 ```bash
-sudo pacman -S hyprland waybar wofi kitty hyprpaper hyprlock nemo nwg-look swaync
+sudo pacman -S hyprland waybar wofi kitty hyprpaper hyprlock nemo nwg-look swaync hyprpolkitagent xdg-desktop-portal-hyprland
 ```
 
 ## SDDM:
@@ -16,7 +16,7 @@ systemctl enable sddm
 pacman -S papirus-icon-theme
 ```
 
-Установить [papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders) 
+Установить [papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders?tab=readme-ov-file#papirus-installer) в HOME
 ```bash
 papirus-folders -C green
 ```
