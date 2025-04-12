@@ -1,5 +1,6 @@
 window {
     font-size: 20px;
     font-family: "JetBrainsMono";
-    border-radius: 0px;
+    border: 1px;
+    border-radius: 10px;
 }
