@@ -12,9 +12,9 @@ button {
     border-color: black;
 	text-decoration-color: #FFFFFF;
     font-family: "JetBrainsMono";
-    font-size: 20px;
+    font-size: 0px;
     color: #151515;
-	background-color: #4b4b4b;
+	background-color: #555C59;
 	border-style: solid;
 	border-width: 1px;
 	background-repeat: no-repeat;
@@ -30,25 +30,25 @@ button:focus, button:active, button:hover {
 }
 
 #lock {
-    background-image: image(url("/home/dvmdd/.hdotsfiles/.wlogout-icons/lock-icon.png"));
+    background-image: image(url("/home/dvmdd/.hdotsfiles/wlogout-icons/lock-icon.png"));
 }
 
 #logout {
-    background-image: image(url("/home/dvmdd/.hdotsfiles/.wlogout-icons/end-session-icon.png"));
+    background-image: image(url("/home/dvmdd/.hdotsfiles/wlogout-icons/end-session-icon.png"));
 }
 
 #suspend {
-    background-image: image(url("/home/dvmdd/.hdotsfiles/.wlogout-icons/suspend-icon.png"));
+    background-image: image(url("/home/dvmdd/.hdotsfiles/wlogout-icons/suspend-icon.png"));
 }
 
 #hibernate {
-    background-image: image(url("/home/dvmdd/.hdotsfiles/.wlogout-icons/hibernate-icon.png"));
+    background-image: image(url("/home/dvmdd/.hdotsfiles/wlogout-icons/hibernate-icon.png"));
 }
 
 #shutdown {
-    background-image: image(url("/home/dvmdd/.hdotsfiles/.wlogout-icons/power-off-icon.png"));
+    background-image: image(url("/home/dvmdd/.hdotsfiles/wlogout-icons/power-off-icon.png"));
 }
 
 #reboot {
-    background-image: image(url("/home/dvmdd/.hdotsfiles/.wlogout-icons/reboot-icon.png"));
+    background-image: image(url("/home/dvmdd/.hdotsfiles/wlogout-icons/reboot-icon.png"));
 }
