@@ -11,6 +11,54 @@ sudo pacman -S sddm
 systemctl enable sddm
 ```
 
+### Установка темы SDDM:
+
+Для SDDM используется тема [simple-sddm](https://github.com/JaKooLit/simple-sddm/tree/main)
+
+Установить `qt5-quickcontrols2, qt5-graphicaleffects, qt5-svg`
+
+```bash
+sudo pacman -S qt5-quickcontrols2 qt5-graphicaleffects qt5-svg
+```
+
+1. Открыть терминал и ввести:
+```bash
+git clone https://github.com/JaKooLit/simple-sddm.git ~/simple-sddm
+```
+2. Перенести:
+```bash
+sudo mv ~/simple-sddm /usr/share/sddm/themes/
+```
+3. Поставить тему в конфиге SDDM:
+```bash
+sudo nano /usr/lib/sddm/sddm.conf.d/default.conf
+---
+
+[Theme]
+Current=simple-sddm
+...
+```
+
+### Настройка темы SDDM:
+
+```bash
+sudo cp $HOME/.hdotsfiles/wallpapers/2.png /usr/share/sddm/themes/Backgrounds/eos_dark.png
+```
+
+```bash
+sudo nano /usr/share/sddm/themes/simple-sddm/theme.conf
+---
+
+[General]
+Background="Backgrounds/eos_dark.png"
+...
+MainColor="#3cb478"
+...
+AccentColor="#3cb478"
+...
+BackgroundColor="#151515"
+```
+
 ## papirus-icon-theme:
 ```bash
 pacman -S papirus-icon-theme
@@ -21,8 +69,8 @@ pacman -S papirus-icon-theme
 papirus-folders -C green
 ```
 
-## orchis-green-dark: 
-Установить [orchis-theme](https://github.com/vinceliuice/Orchis-theme) 
+## orchis-green-dark:
+Установить [orchis-theme](https://github.com/vinceliuice/Orchis-theme)
 ```bash
 ./install -t green
 ```
