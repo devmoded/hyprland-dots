@@ -4,7 +4,7 @@
     "margin": "9 13 -10 18",
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "hyprland/window", "hyprland/language", "keyboard-state", "hyprland/submap"],
-    "modules-center": ["clock", "custom/weather"],
+    "modules-center": ["clock"],
     "modules-right": ["pulseaudio", "custom/mem", "cpu", "temperature", "tray"],
 
 
@@ -15,7 +15,7 @@
     "hyprland/workspaces": {
         "disable-scroll": true,
     },
-    
+
     "hyprland/window": {
         "separate-outputs": true,
     },

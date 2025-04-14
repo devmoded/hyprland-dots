@@ -1,0 +1,9 @@
+[dark]
+1.png - eos_mint_dark
+2.png - eos_dark
+3.png - mint_dark
+4.png - tux_mint_dark
+
+[light]
+1.png - black_mint_light
+2.png - white_mint_light

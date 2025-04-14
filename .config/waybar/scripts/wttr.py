@@ -57,7 +57,7 @@ WEATHER_CODES = {
 
 data = {}
 
-#                                 город - \/  ,     \/ - страна
+#                            first town - \/  ,     \/ - second country
 weather = requests.get("https://wttr.in/Tambov,%20Russia?format=j1").json()
 
 

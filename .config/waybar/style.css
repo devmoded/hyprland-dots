@@ -3,7 +3,10 @@
     border-radius: 0;
     /* `otf-font-awesome` требуется для иконок */
     /* `JetBrains Mono` требуется для текста */
-    font-family: FontAwesome, JetBrains Mono, sans-serif;
+    font-family:
+        FontAwesome,
+        JetBrains Mono,
+        sans-serif;
     min-height: 20px;
 }
 
@@ -24,14 +27,14 @@ window#waybar.hidden {
     border-radius: 10px 10px 10px 10px;
     transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 #workspaces {
     margin-right: 8px;
     border-radius: 10px;
     transition: none;
-    background: #2F2F2F;
+    background: #2f2f2f;
 }
 
 #workspaces button {
@@ -54,11 +57,11 @@ window#waybar.hidden {
     text-shadow: inherit;
     border-radius: inherit;
     color: #ffffff; /*текст*/
-    background: #4B4B4B; /*7c818c*/ /*фон*/
+    background: #4b4b4b; /*7c818c*/ /*фон*/
 }
 
 #workspaces button.active {
-    background: #4B4B4B; /*4e5263*/ /*фон*/
+    background: #4b4b4b; /*4e5263*/ /*фон*/
     color: #3cb478; /*текст*/
     border-radius: inherit;
 }
@@ -69,7 +72,7 @@ window#waybar.hidden {
     border-radius: 10px 0px 0px 10px;
     transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 #keyboard-state {
@@ -78,7 +81,7 @@ window#waybar.hidden {
     border-radius: 0px 10px 10px 0px;
     transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 #custom-pacman {
@@ -87,16 +90,16 @@ window#waybar.hidden {
     border-radius: 10px 0px 0px 10px;
     transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 #custom-mail {
     margin-right: 8px;
     padding-right: 16px;
     border-radius: 0px 10px 10px 0px;
-    transition: none; 
+    transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 #submap {
@@ -105,16 +108,16 @@ window#waybar.hidden {
     border-radius: 10px;
     transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 #clock {
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 10px 10px 10px;
     transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 #custom-weather {
@@ -122,7 +125,7 @@ window#waybar.hidden {
     border-radius: 0px 10px 10px 0px;
     transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 #pulseaudio {
@@ -132,7 +135,7 @@ window#waybar.hidden {
     border-radius: 10px;
     transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 #pulseaudio.muted {
@@ -147,7 +150,7 @@ window#waybar.hidden {
     border-radius: 10px;
     transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 #cpu {
@@ -157,7 +160,7 @@ window#waybar.hidden {
     border-radius: 10px;
     transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 #temperature {
@@ -167,7 +170,7 @@ window#waybar.hidden {
     border-radius: 10px;
     transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 #temperature.critical {
@@ -181,7 +184,7 @@ window#waybar.hidden {
     border-radius: 10px;
     transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 #battery {
@@ -191,12 +194,12 @@ window#waybar.hidden {
     border-radius: 10px;
     transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 #battery.charging {
     color: #ffffff; /*текст*/
-    background-color: #26A65B;
+    background-color: #26a65b;
 }
 
 #battery.warning:not(.charging) {
@@ -220,7 +223,7 @@ window#waybar.hidden {
     border-radius: 10px;
     transition: none;
     color: #ffffff; /*текст*/
-    background: #2F2F2F; /*фон*/
+    background: #2f2f2f; /*фон*/
 }
 
 @keyframes blink {
