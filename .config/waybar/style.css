@@ -7,7 +7,7 @@
         FontAwesome,
         JetBrains Mono,
         sans-serif;
-    min-height: 20px;
+    min-height: 25px;
 }
 
 /*  */
@@ -47,7 +47,7 @@ window#waybar.hidden {
 
 #workspaces button.persistent {
     color: #7c818c;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
@@ -63,6 +63,7 @@ window#waybar.hidden {
 #workspaces button.active {
     background: #4b4b4b; /*4e5263*/ /*фон*/
     color: #3cb478; /*текст*/
+    font-size: 18px;
     border-radius: inherit;
 }
 

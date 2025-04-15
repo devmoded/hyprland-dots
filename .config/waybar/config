@@ -13,10 +13,19 @@
     //***************************
 
     "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": " ",
+            "3": " ",
+        },
         "disable-scroll": true,
     },
 
     "hyprland/window": {
+        "max-length": 35,
+        "format": "{class}",
+        "tooltip-format": "{title}",
         "separate-outputs": true,
     },
 
