@@ -38,11 +38,13 @@ window#waybar.hidden {
 }
 
 #workspaces button {
+    margin: 0.26em;
     transition: none;
     color: #ffffff; /*7c818c*/
     background: transparent;
     padding: 5px;
     font-size: 18px;
+    transition: all 0.3s cubic-bezier(0.04, 0.39, 0.24, 1.05);
 }
 
 #workspaces button.persistent {
@@ -63,7 +65,6 @@ window#waybar.hidden {
 #workspaces button.active {
     background: #4b4b4b; /*4e5263*/ /*фон*/
     color: #3cb478; /*текст*/
-    font-size: 18px;
     border-radius: inherit;
 }
 

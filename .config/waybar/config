@@ -15,10 +15,14 @@
     "hyprland/workspaces": {
         "format": "{icon}",
         "format-icons": {
-            "1": "",
-            "2": " ",
-            "3": " ",
+            "active": "",
+            "default": ""
         },
+        "persistent-workspaces": {
+          "*": 5
+        },
+
+        "justify": "center",
         "disable-scroll": true,
     },
 
