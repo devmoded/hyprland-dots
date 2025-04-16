@@ -30,6 +30,26 @@ window#waybar.hidden {
     background: #2f2f2f; /*фон*/
 }
 
+tooltip {
+    padding: 16px;
+    background: #2f2f2f;
+    border-radius: 10px;
+}
+
+#tray menu {
+    padding: 16px;
+    background: #2f2f2f;
+    border-radius: 10px;
+}
+
+#tray menu menuitem {
+    border-radius: 10px;
+}
+
+#tray menu separator {
+    border-radius: 10px;
+}
+
 #workspaces {
     margin-right: 8px;
     border-radius: 10px;
@@ -38,7 +58,7 @@ window#waybar.hidden {
 }
 
 #workspaces button {
-    margin: 0.26em;
+    margin: 0.2em;
     transition: none;
     color: #ffffff; /*7c818c*/
     background: transparent;
