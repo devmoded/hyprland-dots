@@ -94,3 +94,12 @@ yay -S wlogout
 ```bash
 sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome otf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-montserrat otf-montserrat
 ```
+# Если:
+## Приложения в wofi открываются через xterm:
+В `/usr/share/applications/` найти `.desktop` файл нужного приложения и в строке
+```bash
+...
+Exec=*kitty <и команда для выполнения (например: vim)>
+Terminal=false
+```
+\**(например kitty)*
