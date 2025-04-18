@@ -1,5 +1,5 @@
 # Основная часть
-- [ ] Вынести некоторые настройки у waybar
+- [x] Вынести некоторые настройки у waybar
 - [ ] Сделать скрипт для установки
 
 # Установка, настройка
@@ -109,12 +109,14 @@ sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome otf
 ---
 
 ### NeoVim:
-Используется [CosmicNvim](https://github.com/CosmicNvim/CosmicNvim)
+Используется [NvChad](https://nvchad.com/)
 ```bash
-cd ~/.config
-git clone https://github.com/CosmicNvim/CosmicNvim.git nvim
-nvim
+git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 ```
+```nvim
+:MasonInstallAll
+```
+Удалить каталог `.git` из `.config/nvim/`
 
 ---
 
