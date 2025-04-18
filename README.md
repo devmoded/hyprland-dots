@@ -1,22 +1,29 @@
-# Требуемые пакеты:
-## Основные
+# Основная часть
+- [ ] Вынести некоторые настройки у waybar
+- [ ] Сделать скрипт для установки
+
+# Установка, настройка
+## Требуемые пакеты:
+### Основные
 Hyprland, Waybar, Wofi, Kitty, Hyprpaper, Hyprlock, Nemo, nwg-look, swaync, hyprpolkitagent, xdg-desktop-portal-hyprland:
 ```bash
 sudo pacman -S hyprland waybar wofi kitty hyprpaper hyprlock nemo nwg-look swaync hyprpolkitagent xdg-desktop-portal-hyprland
 ```
-## Дополнительные
+### Дополнительные
 NeoVim, Zed, Obsidian, OBS Studio, Steam, Telegram, Loupe:
 ```bash
 sudo pacman -S nvim zed obsidian obs-studio steam telegram-desktop loupe
 ```
 
-## SDDM:
+---
+
+### SDDM:
 ```bash
 sudo pacman -S sddm
 systemctl enable sddm
 ```
 
-### Установка темы SDDM:
+#### **Установка темы SDDM**:
 
 Для SDDM используется тема [simple-sddm](https://github.com/JaKooLit/simple-sddm/tree/main)
 
@@ -44,7 +51,7 @@ Current=simple-sddm
 ...
 ```
 
-### Настройка темы SDDM:
+#### **Настройка темы SDDM**:
 
 ```bash
 sudo cp $HOME/.hdotsfiles/wallpapers/2.png /usr/share/sddm/themes/Backgrounds/eos_dark.png
@@ -64,7 +71,9 @@ AccentColor="#3cb478"
 BackgroundColor="#151515"
 ```
 
-## papirus-icon-theme:
+---
+
+### papirus-icon-theme:
 ```bash
 pacman -S papirus-icon-theme
 ```
@@ -74,26 +83,41 @@ pacman -S papirus-icon-theme
 papirus-folders -C green
 ```
 
-## orchis-green-dark:
+### orchis-green-dark:
 Установить [orchis-theme](https://github.com/vinceliuice/Orchis-theme)
 ```bash
 ./install -t green
 ```
 
-## [Hyprshot](https://github.com/Gustash/Hyprshot):
+---
+
+### [Hyprshot](https://github.com/Gustash/Hyprshot):
 ```bash
 yay -S hyprshot
 ```
 
-## [wlogout](https://github.com/ArtsyMacaw/wlogout):
+### [wlogout](https://github.com/ArtsyMacaw/wlogout):
 ```bash
 yay -S wlogout
 ```
 
-## Шрифты:
+### Шрифты:
 ```bash
 sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome otf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-montserrat otf-montserrat
 ```
+
+---
+
+### NeoVim:
+Используется [CosmicNvim](https://github.com/CosmicNvim/CosmicNvim)
+```bash
+cd ~/.config
+git clone https://github.com/CosmicNvim/CosmicNvim.git nvim
+nvim
+```
+
+---
+
 # Если:
 ## Приложения в wofi открываются через xterm:
 В `/usr/share/applications/` найти `.desktop` файл нужного приложения и в строке

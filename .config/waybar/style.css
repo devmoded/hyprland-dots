@@ -10,7 +10,12 @@
     min-height: 25px;
 }
 
-/*  */
+@define-color bg-color #2f2f2f;
+@define-color bg-color-active #4b4b4b;
+
+@define-color c-text-color #ffffff;
+@define-color c-text-color-active #3cb478;
+@define-color c-text-color-persistent #7c818c;
 
 window#waybar {
     background: transparent;
@@ -26,19 +31,19 @@ window#waybar.hidden {
     padding-right: 16px;
     border-radius: 10px 10px 10px 10px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 tooltip {
     padding: 16px;
-    background: #2f2f2f;
+    background: @bg-color;
     border-radius: 10px;
 }
 
 #tray menu {
     padding: 16px;
-    background: #2f2f2f;
+    background: @bg-color;
     border-radius: 10px;
 }
 
@@ -54,13 +59,12 @@ tooltip {
     margin-right: 8px;
     border-radius: 10px;
     transition: none;
-    background: #2f2f2f;
+    background: @bg-color;
 }
 
 #workspaces button {
     margin: 0.2em;
-    transition: none;
-    color: #ffffff; /*7c818c*/
+    color: @c-text-color; /*7c818c*/
     background: transparent;
     padding: 5px;
     font-size: 18px;
@@ -68,7 +72,7 @@ tooltip {
 }
 
 #workspaces button.persistent {
-    color: #7c818c;
+    color: @c-text-color-persistent;
     font-size: 18px;
 }
 
@@ -78,13 +82,13 @@ tooltip {
     box-shadow: inherit;
     text-shadow: inherit;
     border-radius: inherit;
-    color: #ffffff; /*текст*/
-    background: #4b4b4b; /*7c818c*/ /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color-active; /*фон*/
 }
 
 #workspaces button.active {
-    background: #4b4b4b; /*4e5263*/ /*фон*/
-    color: #3cb478; /*текст*/
+    background: @bg-color-active; /*4e5263*/ /*фон*/
+    color: @c-text-color-active; /*текст*/
     border-radius: inherit;
 }
 
@@ -93,8 +97,8 @@ tooltip {
     padding-right: 8px;
     border-radius: 10px 0px 0px 10px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 #keyboard-state {
@@ -102,8 +106,8 @@ tooltip {
     padding-right: 8px;
     border-radius: 0px 10px 10px 0px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 #custom-pacman {
@@ -111,8 +115,8 @@ tooltip {
     padding-right: 8px;
     border-radius: 10px 0px 0px 10px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 #custom-mail {
@@ -120,8 +124,8 @@ tooltip {
     padding-right: 16px;
     border-radius: 0px 10px 10px 0px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 #submap {
@@ -129,8 +133,8 @@ tooltip {
     padding-right: 16px;
     border-radius: 10px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 #clock {
@@ -138,16 +142,16 @@ tooltip {
     padding-right: 16px;
     border-radius: 10px 10px 10px 10px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 #custom-weather {
     padding-right: 16px;
     border-radius: 0px 10px 10px 0px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 #pulseaudio {
@@ -156,8 +160,8 @@ tooltip {
     padding-right: 8px;
     border-radius: 10px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 #pulseaudio.muted {
@@ -171,8 +175,8 @@ tooltip {
     padding-right: 16px;
     border-radius: 10px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 #cpu {
@@ -181,8 +185,8 @@ tooltip {
     padding-right: 16px;
     border-radius: 10px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 #temperature {
@@ -191,8 +195,8 @@ tooltip {
     padding-right: 16px;
     border-radius: 10px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 #temperature.critical {
@@ -205,8 +209,8 @@ tooltip {
     padding-right: 16px;
     border-radius: 10px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 #battery {
@@ -215,12 +219,12 @@ tooltip {
     padding-right: 16px;
     border-radius: 10px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 #battery.charging {
-    color: #ffffff; /*текст*/
+    color: @c-text-color; /*текст*/
     background-color: #26a65b;
 }
 
@@ -231,7 +235,7 @@ tooltip {
 
 #battery.critical:not(.charging) {
     background-color: #f53c3c;
-    color: #ffffff; /*текст*/
+    color: @c-text-color; /*текст*/
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -244,8 +248,8 @@ tooltip {
     padding-right: 16px;
     border-radius: 10px;
     transition: none;
-    color: #ffffff; /*текст*/
-    background: #2f2f2f; /*фон*/
+    color: @c-text-color; /*текст*/
+    background: @bg-color; /*фон*/
 }
 
 @keyframes blink {
