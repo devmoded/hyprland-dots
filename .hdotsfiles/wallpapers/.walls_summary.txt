@@ -1,6 +1,7 @@
 [dark]
 1.png - eos_mint_dark
 2.png - eos_dark
+2-1.png - eos_dark_pixel
 3.png - mint_dark
 4.png - tux_mint_dark
 
