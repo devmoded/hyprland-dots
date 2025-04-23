@@ -15,6 +15,11 @@ NeoVim, Zed, Obsidian, OBS Studio, Steam, Telegram, Loupe, Cool Retro Term, Xrea
 sudo pacman -S nvim zed obsidian obs-studio steam telegram-desktop loupe cool-retro-term xreader libreoffice-fresh libreoffice-fresh-ru btop timeshift fastfetch vlc
 ```
 
+### Шрифты:
+```bash
+sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome otf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-montserrat otf-montserrat
+```
+
 ---
 
 ### SDDM:
@@ -54,7 +59,7 @@ Current=simple-sddm
 #### **Настройка темы SDDM**:
 
 ```bash
-sudo cp $HOME/.hdotsfiles/wallpapers/2.png /usr/share/sddm/themes/Backgrounds/eos_dark.png
+sudo cp $HOME/.hdotsfiles/wallpapers/dark/2.png /usr/share/sddm/themes/Backgrounds/eos_dark.png
 ```
 
 ```bash
@@ -99,11 +104,6 @@ yay -S hyprshot
 ### [wlogout](https://github.com/ArtsyMacaw/wlogout):
 ```bash
 yay -S wlogout
-```
-
-### Шрифты:
-```bash
-sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome otf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-montserrat otf-montserrat
 ```
 
 ---
