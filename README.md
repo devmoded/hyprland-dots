@@ -10,9 +10,9 @@ Hyprland, Waybar, Wofi, Kitty, Hyprpaper, Hyprlock, Nemo, nwg-look, swaync, hypr
 sudo pacman -S hyprland waybar wofi kitty hyprpaper hyprlock nemo nwg-look swaync hyprpolkitagent xdg-desktop-portal-hyprland
 ```
 ### Дополнительные
-NeoVim, Zed, Obsidian, OBS Studio, Steam, Telegram, Loupe:
+NeoVim, Zed, Obsidian, OBS Studio, Steam, Telegram, Loupe, Cool Retro Term, Xreader, LibreOffice, Btop, Timeshift, Fastfetch, VLC:
 ```bash
-sudo pacman -S nvim zed obsidian obs-studio steam telegram-desktop loupe
+sudo pacman -S nvim zed obsidian obs-studio steam telegram-desktop loupe cool-retro-term xreader libreoffice-fresh libreoffice-fresh-ru btop timeshift fastfetch vlc
 ```
 
 ---
