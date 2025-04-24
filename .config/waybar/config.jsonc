@@ -1,9 +1,14 @@
 {
-    "layer": "top", // Waybar at top layer
-    "position": "top", // Waybar position (top|bottom|left|right)
-    "margin": "9 13 -10 18",
+    // Waybar at top layer
+    "layer": "top",
+
+    "position": "top",
+
+    // Waybar position (top|bottom|left|right)
+    "margin": "10 200 -10 200",
+
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces", "hyprland/window", "hyprland/language", "keyboard-state", "hyprland/submap"],
+    "modules-left": ["hyprland/workspaces", "hyprland/language", "keyboard-state", "hyprland/submap"],
     "modules-center": ["clock"],
     "modules-right": ["pulseaudio", "custom/mem", "cpu", "temperature", "tray"],
 
