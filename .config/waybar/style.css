@@ -20,6 +20,7 @@
 window#waybar {
     /* Убрать это чтобы сделать ввиде плиток */
     border-radius: 20px;
+    /* Установить transparent */
     background: @bg-color;
 }
 
@@ -96,9 +97,9 @@ tooltip {
 
 #language {
     font-weight: Bold;
-    padding-left: 8px;
+    padding-left: 0px;
     padding-right: 8px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 10px 10px 10px;
     transition: none;
     color: @c-text-color; /*текст*/
     background: @bg-color; /*фон*/
@@ -133,8 +134,8 @@ tooltip {
 }
 
 #submap {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
     border-radius: 10px;
     transition: none;
     color: @c-text-color; /*текст*/
