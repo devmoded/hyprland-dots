@@ -4,6 +4,10 @@
 2-1.png - eos_dark_pixel
 3.png - mint_dark
 4.png - tux_mint_dark
+5.png - win11_dark_fullhd
+5-1.png - win11_dark
+6.png - win11_mint_fullhd
+6-1.png - win11_mint
 
 [light]
 1.png - black_mint_light

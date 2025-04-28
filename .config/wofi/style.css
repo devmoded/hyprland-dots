@@ -4,3 +4,13 @@ window {
     border: 1px;
     border-radius: 10px;
 }
+
+#entry:selected {
+    border-radius: 10px;
+    background: #0d4027;
+}
+
+#text:selected {
+    font-weight: Bold;
+    color: #3cb478;
+}

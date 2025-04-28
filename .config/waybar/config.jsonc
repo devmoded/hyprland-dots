@@ -2,10 +2,10 @@
   // Waybar at top layer
   "layer": "top",
 
+  // Waybar position (top|bottom|left|right)
   "position": "top",
 
-  // Waybar position (top|bottom|left|right)
-  "margin": "10 250 -10 250",
+  "margin": "10 250 0 250",
 
   // Choose the order of the modules
   "modules-left": [
@@ -14,7 +14,7 @@
     "hyprland/submap",
   ],
   "modules-center": ["clock"],
-  "modules-right": ["pulseaudio", "custom/mem", "cpu", "temperature", "tray"],
+  "modules-right": ["pulseaudio", "custom/mem", "cpu", "tray"],
 
   //***************************
   //*  Modules configuration  *
