@@ -1,8 +1,10 @@
 # Основная часть
+
 ## Скриншоты
 ![Background](hdots_screenshots/background.png)
 ![Some apps](hdots_screenshots/some_apps.png)
 ![Pixel background](hdots_screenshots/background_pixeled.png)
+
 ## TODO
 - [x] Вынести некоторые настройки у waybar
 - [ ] Добавить в waybar кнопку для смены обоев
@@ -14,6 +16,7 @@
 
 ```bash
 sudo pacman -S hyprland waybar wofi kitty hyprpaper hyprlock nemo nwg-look swaync hyprpolkitagent xdg-desktop-portal-hyprland
+sudo pacman -S nvim zed obsidian obs-studio steam telegram-desktop loupe cool-retro-term xreader libreoffice-fresh libreoffice-fresh-ru btop timeshift fastfetch vlc
 sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome otf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-montserrat otf-montserrat
 sudo pacman -S sddm
 systemctl enable sddm
@@ -36,10 +39,11 @@ git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 
 ### Описание:
 
-#### Необходимые пакеты:
+#### Необходимые пакеты и другие:
 
 ```bash
 sudo pacman -S hyprland waybar wofi kitty hyprpaper hyprlock nemo nwg-look swaync hyprpolkitagent xdg-desktop-portal-hyprland
+sudo pacman -S nvim zed obsidian obs-studio steam telegram-desktop loupe cool-retro-term xreader libreoffice-fresh libreoffice-fresh-ru btop timeshift fastfetch vlc
 sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome otf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-montserrat otf-montserrat
 ```
 
