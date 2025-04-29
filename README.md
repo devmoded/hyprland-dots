@@ -1,9 +1,77 @@
 # Основная часть
+## Скриншоты
+![Background](hdots_screenshots/background.png)
+![Some apps](hdots_screenshots/some_apps.png)
+![Pixel background](hdots_screenshots/background_pixeled.png)
+## TODO
 - [x] Вынести некоторые настройки у waybar
 - [ ] Добавить в waybar кнопку для смены обоев
 - [ ] Сделать скрипт для установки
 
 # Установка, настройка
+
+## Установка всего:
+
+```bash
+sudo pacman -S hyprland waybar wofi kitty hyprpaper hyprlock nemo nwg-look swaync hyprpolkitagent xdg-desktop-portal-hyprland
+sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome otf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-montserrat otf-montserrat
+sudo pacman -S sddm
+systemctl enable sddm
+sudo pacman -S qt5-quickcontrols2 qt5-graphicaleffects qt5-svg
+git clone https://github.com/JaKooLit/simple-sddm.git ~/simple-sddm
+sudo mv ~/simple-sddm /usr/share/sddm/themes/
+git clone https://github.com/devmoded/hyprland-dots.git
+cd hyprland-dots
+mv .hdotsfiles $HOME
+mv .icons $HOME
+mv .config $HOME/.config
+sudo cp $HOME/.hdotsfiles/wallpapers/dark/2.png /usr/share/sddm/themes/Backgrounds/eos_dark.png
+pacman -S papirus-icon-theme
+yay -S hyprshot wlogout
+git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+```
+*\* Подробные инструкции по настройке ниже*
+<br>
+*\*\* Требуется также установить тему [orchis-theme](#orchis-green-dark)*
+
+### Описание:
+
+#### Необходимые пакеты:
+
+```bash
+sudo pacman -S hyprland waybar wofi kitty hyprpaper hyprlock nemo nwg-look swaync hyprpolkitagent xdg-desktop-portal-hyprland
+sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome otf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-montserrat otf-montserrat
+```
+
+#### SDDM:
+
+```bash
+sudo pacman -S sddm
+systemctl enable sddm
+sudo pacman -S qt5-quickcontrols2 qt5-graphicaleffects qt5-svg
+git clone https://github.com/JaKooLit/simple-sddm.git ~/simple-sddm
+sudo mv ~/simple-sddm /usr/share/sddm/themes/
+```
+
+#### Дотфайлы:
+
+```bash
+git clone https://github.com/devmoded/hyprland-dots.git
+cd hyprland-dots
+mv .hdotsfiles $HOME
+mv .icons $HOME
+mv .config $HOME/.config
+sudo cp $HOME/.hdotsfiles/wallpapers/dark/2.png /usr/share/sddm/themes/Backgrounds/eos_dark.png
+```
+
+#### Другое:
+
+```bash
+pacman -S papirus-icon-theme
+yay -S hyprshot wlogout
+git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+```
+
 ## Требуемые пакеты:
 ### Основные
 Hyprland, Waybar, Wofi, Kitty, Hyprpaper, Hyprlock, Nemo, nwg-look, swaync, hyprpolkitagent, xdg-desktop-portal-hyprland:
