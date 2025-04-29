@@ -5,11 +5,6 @@
 ![Some apps](hdots_screenshots/some_apps.png)
 ![Pixel background](hdots_screenshots/background_pixeled.png)
 
-## TODO
-- [x] Вынести некоторые настройки у waybar
-- [ ] Добавить в waybar кнопку для смены обоев
-- [ ] Сделать скрипт для установки
-
 # Установка, настройка
 
 ## Установка всего:
