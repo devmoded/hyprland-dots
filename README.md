@@ -1,5 +1,11 @@
 # Основная часть
 
+## Программы
+**Терминал:** `kitty`<br>
+**Файловый менеджер:** `nemo`<br>
+**Видеоплеер:** `vlc`<br>
+**Редактор кода:** `zed`, `neovim`<br>
+
 ## Скриншоты
 ![Background](hdots_screenshots/background.png)
 ![Some apps](hdots_screenshots/some_apps.png)
