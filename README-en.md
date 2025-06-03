@@ -24,6 +24,11 @@
 📹 **Video player:** `vlc`<br>
 ⌨️ **Code editor:** `zed`, `neovim`<br>
 
+## Content
+- [Screenshots](#%EF%B8%8F-screenshots)
+- [Installation, configuration](#%EF%B8%8F-installation-configuration)
+- [Required packages](#required-packages)
+- [Advice](#if)
 
 ## 🖼️ Screenshots
 ![Background](hdots_screenshots/background.png)
