@@ -1,7 +1,10 @@
-# 🪪 Основная часть
+# 🪪 Main part
 
 > [!WARNING]
-> Проект больше не развивается
+> The project is no longer being developed.
+
+> [!WARNING]
+> This text was translated using Google Translate.
 
 <p align=center>
     <a href="https://github.com/devmoded/hyprland-dots/blob/main/README.md">
@@ -13,23 +16,23 @@
     </a>
 </p>
 
-## Программы
-🎛️ **Панель:** `waybar` (Использовались конфиги от [Andrey0189/hyprland-rice](https://github.com/Andrey0189/hyprland-rice) и [lgaboury/Sway-Waybar-Install-Script](https://github.com/lgaboury/Sway-Waybar-Install-Script/tree/master/.config/waybar))<br>
-🖥️ **Дисплей менеджер:** `sddm` (Использовался конфиг от [JaKooLit/simple-sddm](https://github.com/JaKooLit/simple-sddm/tree/main))<br>
-💻 **Терминал:** `kitty`<br>
-🗃️ **Файловый менеджер:** `nemo`<br>
-📹 **Видеоплеер:** `vlc`<br>
-⌨️ **Редактор кода:** `zed`, `neovim`<br>
+## Programs
+🎛️ **Bar:** `waybar` (Based on configs from [Andrey0189/hyprland-rice](https://github.com/Andrey0189/hyprland-rice) and [lgaboury/Sway-Waybar-Install-Script](https://github.com/lgaboury/Sway-Waybar-Install-Script/tree/master/.config/waybar))<br>
+🖥️ **Дисплей менеджер:** `sddm` (Based on the config from [JaKooLit/simple-sddm](https://github.com/JaKooLit/simple-sddm/tree/main))<br>
+💻 **Terminal:** `kitty`<br>
+🗃️ **File manager:** `nemo`<br>
+📹 **Video player:** `vlc`<br>
+⌨️ **Code editor:** `zed`, `neovim`<br>
 
 
-## 🖼️ Скриншоты
+## 🖼️ Screenshots
 ![Background](hdots_screenshots/background.png)
 ![Some apps](hdots_screenshots/some_apps.png)
 ![Pixel background](hdots_screenshots/background_pixeled.png)
 
-# ⚙️ Установка, настройка
+# ⚙️ Installation, configuration
 
-## Установка всего:
+## Installing everything:
 
 ```bash
 sudo pacman -S hyprland waybar wofi kitty hyprpaper hyprlock nemo nwg-look swaync hyprpolkitagent xdg-desktop-portal-hyprland
@@ -50,15 +53,15 @@ pacman -S papirus-icon-theme
 yay -S hyprshot wlogout
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 ```
-*\* Подробные инструкции по настройке ниже*
+*\* Detailed setup instructions below*
 <br>
-*\*\* Требуется также установить тему [orchis-theme](#orchis-green-dark)*
+*\*\* You also need to install a theme [orchis-theme](#orchis-green-dark)*
 
 ---
 
-### Описание:
+### Description:
 
-#### Необходимые и другие пакеты:
+#### Necessary and other packages:
 
 ```bash
 sudo pacman -S hyprland waybar wofi kitty hyprpaper hyprlock nemo nwg-look swaync hyprpolkitagent xdg-desktop-portal-hyprland
@@ -76,7 +79,7 @@ git clone https://github.com/JaKooLit/simple-sddm.git ~/simple-sddm
 sudo mv ~/simple-sddm /usr/share/sddm/themes/
 ```
 
-#### Дотфайлы:
+#### Dotfiles:
 
 ```bash
 git clone https://github.com/devmoded/hyprland-dots.git
@@ -87,7 +90,7 @@ mv .config $HOME/.config
 sudo cp $HOME/.hdotsfiles/wallpapers/dark/2.png /usr/share/sddm/themes/Backgrounds/eos_dark.png
 ```
 
-#### Другое:
+#### Other:
 
 ```bash
 pacman -S papirus-icon-theme
@@ -95,19 +98,19 @@ yay -S hyprshot wlogout
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 ```
 
-## Требуемые пакеты:
-### Основные
+## Required packages:
+### Main
 Hyprland, Waybar, Wofi, Kitty, Hyprpaper, Hyprlock, Nemo, nwg-look, swaync, hyprpolkitagent, xdg-desktop-portal-hyprland:
 ```bash
 sudo pacman -S hyprland waybar wofi kitty hyprpaper hyprlock nemo nwg-look swaync hyprpolkitagent xdg-desktop-portal-hyprland
 ```
-### Дополнительные
+### Additional
 NeoVim, Zed, Obsidian, OBS Studio, Steam, Telegram, Loupe, Cool Retro Term, Xreader, LibreOffice, Btop, Timeshift, Fastfetch, VLC:
 ```bash
 sudo pacman -S nvim zed obsidian obs-studio steam telegram-desktop loupe cool-retro-term xreader libreoffice-fresh libreoffice-fresh-ru btop timeshift fastfetch vlc
 ```
 
-### Шрифты:
+### Fonts:
 ```bash
 sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome otf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-montserrat otf-montserrat
 ```
@@ -120,25 +123,25 @@ sudo pacman -S sddm
 systemctl enable sddm
 ```
 
-#### **Установка темы SDDM**:
+#### **Installing SDDM Theme**:
 
-Для SDDM используется тема [simple-sddm](https://github.com/JaKooLit/simple-sddm/tree/main)
+The theme is used for SDDM [simple-sddm](https://github.com/JaKooLit/simple-sddm/tree/main)
 
-Установить `qt5-quickcontrols2, qt5-graphicaleffects, qt5-svg`
+Install `qt5-quickcontrols2, qt5-graphicaleffects, qt5-svg`
 
 ```bash
 sudo pacman -S qt5-quickcontrols2 qt5-graphicaleffects qt5-svg
 ```
 
-1. Открыть терминал и ввести:
+1. Open terminal and enter:
 ```bash
 git clone https://github.com/JaKooLit/simple-sddm.git ~/simple-sddm
 ```
-2. Перенести:
+2. Transfer files:
 ```bash
 sudo mv ~/simple-sddm /usr/share/sddm/themes/
 ```
-3. Поставить тему в конфиге SDDM:
+3. Set the theme in the SDDM config:
 ```bash
 sudo nano /usr/lib/sddm/sddm.conf.d/default.conf
 ---
@@ -148,7 +151,7 @@ Current=simple-sddm
 ...
 ```
 
-#### **Настройка темы SDDM**:
+#### **SDDM Theme Setup**:
 
 ```bash
 sudo cp $HOME/.hdotsfiles/wallpapers/dark/2.png /usr/share/sddm/themes/Backgrounds/eos_dark.png
@@ -175,13 +178,13 @@ BackgroundColor="#151515"
 pacman -S papirus-icon-theme
 ```
 
-Установить [papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders?tab=readme-ov-file#papirus-installer) в HOME
+Install [papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders?tab=readme-ov-file#papirus-installer) в HOME
 ```bash
 papirus-folders -C green
 ```
 
 ### orchis-green-dark:
-Установить [orchis-theme](https://github.com/vinceliuice/Orchis-theme)
+Install [orchis-theme](https://github.com/vinceliuice/Orchis-theme)
 ```bash
 ./install -t green
 ```
@@ -201,23 +204,23 @@ yay -S wlogout
 ---
 
 ### NeoVim:
-Используется [NvChad](https://nvchad.com/)
+[NvChad](https://nvchad.com/) is used
 ```bash
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 ```
 ```nvim
 :MasonInstallAll
 ```
-Удалить каталог `.git` из `.config/nvim/`
+Remove `.git` directory from `.config/nvim/`
 
 ---
 
-# Если:
-## Приложения в wofi открываются через xterm:
-В `/usr/share/applications/` найти `.desktop` файл нужного приложения и в строке
+# If:
+## Applications in wofi are opened via xterm:
+In `/usr/share/applications/` find the `.desktop` file of the desired application and in the line
 ```bash
 ...
-Exec=*kitty <и команда для выполнения (например: vim)>
+Exec=*kitty <and the command to execute (eg: vim)>
 Terminal=false
 ```
-\**(например kitty)*
+\**(for example kitty)*
