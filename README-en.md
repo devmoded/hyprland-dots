@@ -18,7 +18,7 @@
 
 ## Programs
 🎛️ **Bar:** `waybar` (Based on configs from [Andrey0189/hyprland-rice](https://github.com/Andrey0189/hyprland-rice) and [lgaboury/Sway-Waybar-Install-Script](https://github.com/lgaboury/Sway-Waybar-Install-Script/tree/master/.config/waybar))<br>
-🖥️ **Дисплей менеджер:** `sddm` (Based on the config from [JaKooLit/simple-sddm](https://github.com/JaKooLit/simple-sddm/tree/main))<br>
+🖥️ **Display manager:** `sddm` (Based on the config from [JaKooLit/simple-sddm](https://github.com/JaKooLit/simple-sddm/tree/main))<br>
 💻 **Terminal:** `kitty`<br>
 🗃️ **File manager:** `nemo`<br>
 📹 **Video player:** `vlc`<br>
